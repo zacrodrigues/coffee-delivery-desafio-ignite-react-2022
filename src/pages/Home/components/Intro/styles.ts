@@ -1,7 +1,7 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 import introBackgroundImg from '../../../../assets/intro-background.png'
 import { rgba } from 'polished'
-import { TitleText } from "../../../../components/Typography";
+import { TitleText } from '../../../../components/Typography'
 
 export const IntroContainer = styled.section`
   width: 100%;
@@ -9,9 +9,9 @@ export const IntroContainer = styled.section`
   background: ${({ theme }) => `url(${introBackgroundImg}) no-repeat center,
       linear-gradient(
         0deg,
-        ${theme.colors["base-white"]} 0%,
-        ${rgba(theme.colors["base-background"], 0.2)} 50%,
-        ${theme.colors["base-background"]} 100%
+        ${theme.colors['base-white']} 0%,
+        ${rgba(theme.colors['base-background'], 0.2)} 50%,
+        ${theme.colors['base-background']} 100%
       )`};
   background-size: cover;
 

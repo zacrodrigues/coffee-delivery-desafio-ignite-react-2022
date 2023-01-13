@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const PaymentMethodContainer = styled.div`
   padding: 0 1rem;
-  background: ${({ theme }) => theme.colors["base-button"]};
-  color: ${({ theme }) => theme.colors["base-text"]};
+  background: ${({ theme }) => theme.colors['base-button']};
+  color: ${({ theme }) => theme.colors['base-text']};
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -12,15 +12,15 @@ export const PaymentMethodContainer = styled.div`
   text-transform: uppercase;
   border-radius: 6px;
   height: 3rem;
-  border: 1px solid ${({ theme }) => theme.colors["base-button"]};
+  border: 1px solid ${({ theme }) => theme.colors['base-button']};
   transition: 0.4s;
 
   svg {
-    color: ${({ theme }) => theme.colors["brand-purple"]};
+    color: ${({ theme }) => theme.colors['brand-purple']};
   }
 
   &:hover {
-    background: ${({ theme }) => theme.colors["base-hover"]};
+    background: ${({ theme }) => theme.colors['base-hover']};
   }
 
   user-select: none;

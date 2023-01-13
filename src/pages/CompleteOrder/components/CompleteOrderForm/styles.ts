@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { SectionBaseStyle } from "../../styles";
+import styled from 'styled-components'
+import { SectionBaseStyle } from '../../styles'
 
 export const CompleteOrderFormContainer = styled.div`
   display: flex;
